@@ -1,0 +1,145 @@
+.carousel-container .carousel-top {
+    height: 425px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.carousel-top .react-multiple-carousel__arrow {
+    background: transparent !important;
+    opacity: 1 ;
+    box-shadow: none ;
+    /* margin-bottom: 45px; */
+}
+.carousel-top .react-multiple-carousel__arrow--right {
+    right: calc(0.2% + 1px) ;
+}
+.carousel-top .react-multiple-carousel__arrow--left {
+    left: calc(0.4% + 1px) ;
+}
+.carousel-container .carousel-child {
+    /* position: absolute;
+    left: 19%;
+    right: 18%;
+    top: 70%; */
+    display: grid;
+    grid-template-columns: 20% 62% auto;
+}
+.carousel-container .section-items-container {
+    border-top: 1px solid #e9e9e9;
+    padding-top: 30px;
+} 
+.carousel-child .react-multi-carousel-track  {
+    height: 400px;
+    padding: 10px;
+}
+/* .tabsAndGallery .bBfHpH::before,
+.ArrowButton__Button-sc-1ikb0hj-1.dZkckO::before {
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border-top: 2.5px solid #fff;
+    border-right: 2.5px solid #fff;
+    opacity: 0.9;
+} */
+/* .tabsAndGallery .bBfHpH {
+    left: 15px;
+}
+.ArrowButton__Button-sc-1ikb0hj-1.dZkckO{
+    right: 15px;
+} */
+.react-multi-carousel-item.react-multi-carousel-item--active:hover {
+    box-shadow: 0 0 10px #767575;
+    -webkit-box-shadow: 0 0 10px #767575;
+}
+.Icon-carousel {
+    display: none;
+}
+
+.react-multi-carousel-item.react-multi-carousel-item--active:hover .Icon-carousel {
+    display: block;
+}
+.react-multi-carousel-item.react-multi-carousel-item--active:hover .selectOptions {
+    background-color:#059473;
+    color: white;
+}
+.carousel-child .react-multiple-carousel__arrow--left {
+    left: calc(-1% + 1px);
+    background: transparent;
+}
+.carousel-child .react-multiple-carousel__arrow--right {
+    right: calc(-1% + 1px);
+    background: transparent;
+}
+.carousel-child .react-multiple-carousel__arrow--left:hover,
+.carousel-child .react-multiple-carousel__arrow--right:hover { 
+    background: transparent;
+}
+.react-multi-carousel-list:hover .react-multiple-carousel__arrow::before {
+    color: #545454;
+    font-size: 30px;
+    display: block;
+}
+ .carousel-child .react-multiple-carousel__arrow::before {
+    display: none;
+}
+.react-multi-carousel-item.react-multi-carousel-item--active{
+    width: 280px;
+}
+.carousel-container .offerDetails {
+    color: white;
+    background: black;
+    font-size: 11px;
+    padding: 4px 10px;
+    width: 44px;
+}
+.carousel-container .stockDetails {
+    background-color: #ff6161;
+    color: white;
+    font-size: 11px;
+    padding: 6px 10px ;
+}
+.carousel-container .offer-stock-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 10px;
+    top: 25px; 
+}
+.image-view-container{
+    display: flex;
+    justify-content: center;
+}
+.carousel-container .quickView  {
+    display: none;
+    -webkit-transition: top 1s;
+    transition: top 1s;
+}
+.react-multi-carousel-item.react-multi-carousel-item--active:hover .quickView {
+    display: block;
+    position: absolute;
+    top: 57%;
+    color: white;
+    background-color: black;
+    width: 90%;
+    padding: 7px;
+    font-weight:400;
+    text-align: center;
+    transition: all .3s ease;
+}
+.imageDetails-parent {
+    margin-top: 10px;
+    text-align: center;
+}
+.dropDownPopper-container .dropdown-content {
+    margin-top: -3px;
+    background-color: white;
+    box-shadow:none;
+    border: 1px solid #e9e9e9;
+}
+.dropDownPopper-container  .dropdown-content a {
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    border-bottom: 1px solid #e9e9e9;
+}
+

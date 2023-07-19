@@ -1,0 +1,30 @@
+.tabsComponent-Container {
+    grid-template-columns: 0.5fr 1fr;
+    background-color: black;
+    color: white;
+    height: 44px;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    gap: 2%;
+}
+.tabsComponent-Container .otherTabs-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.tabsComponent-Container .categories {
+    /* margin-left: 190px; */
+}
+.tabsAndGallery {
+    display: flex;
+    flex-direction: column;
+    gap:45px;
+}
+.tabsComponent-Container .tabsField:hover {
+   cursor: pointer;
+}

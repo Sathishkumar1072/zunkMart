@@ -1,0 +1,41 @@
+/* .outfitsImages {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+} */
+.outfitsImages {
+    padding: 25px;
+    transition: transform 0.5s;
+    height: 355px;
+    width: -webkit-fill-available;
+    margin: 0 auto;
+  }
+  
+  .react-multi-carousel-item.react-multi-carousel-item--active:hover .outfitsImages {
+    transform: scale(1.1); 
+  }
+
+.instaIcon {
+    background-color:  rgb(99 95 95 / 80%);
+    /* margin-top: -63%; */
+    opacity: 0;
+    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.react-multi-carousel-item.react-multi-carousel-item--active:hover .instaIcon {
+    opacity: 1;
+    /* position: absolute; */
+    /* margin-left: 42%; */
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    /* background-color: yellow; */
+}
+.section-items-container.outfits-container .react-multi-carousel-item.react-multi-carousel-item--active:hover {
+    box-shadow: none;
+}

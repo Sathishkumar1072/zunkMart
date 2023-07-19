@@ -1,0 +1,15 @@
+.component {
+    color: "red" !important;
+    position: absolute !important;
+    left: 0rem !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .backdrop-spin.MuiBackdrop-root {
+    z-index: 2000;
+  }

@@ -1,0 +1,29 @@
+.tabCategories-container .tab-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+ .tabCategories-container .tab-item {
+    padding: 4px;
+    background-color: white;
+    cursor: pointer;
+    color: #212121;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .tabCategories-container .tab-item:hover {
+    color: #8224e3;
+  }
+  
+.tabCategories-container .tab-item.active {
+    border-bottom: 2px solid black;
+  }
+ .tab-content .section-items-container {
+    border: none;
+    padding-top: 0px;
+ }
+ .tab-content .latestProducts-container {
+    height: 450px;
+ }

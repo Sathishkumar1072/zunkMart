@@ -1,0 +1,104 @@
+
+.wishList-container {
+    display: grid;
+    grid-template-columns: 19% 62% auto;
+}
+.wishList-container .InovuaReactDataGrid--theme-default-light {
+    border: none;
+   border-top: 1px solid #e9e9e9; 
+}
+.selectOptions-btn {
+    background-color: #059473;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 14px ;
+    border-radius: 0px;
+    letter-spacing: 0.4px;
+}
+.selectOptions-btn:hover {
+    background-color: #048567;
+}
+.wishList-container .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__row--odd {
+    background: none;
+}
+.wishList-container .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__column-header--show-border-left {
+    border: none;
+}
+.wishList-container .cancelIcon {
+   margin-left: -10px;
+   padding: 35px;
+   color: black !important;
+}
+.wishList-container .InovuaReactDataGrid--theme-default-light.InovuaReactDataGrid--show-hover-rows .InovuaReactDataGrid__row--even:not(.InovuaReactDataGrid__row--scrolling):not(.InovuaReactDataGrid__row--empty) .InovuaReactDataGrid__row-hover-target:hover,
+.wishList-container .InovuaReactDataGrid--theme-default-light.InovuaReactDataGrid--show-hover-rows .InovuaReactDataGrid__row--odd:not(.InovuaReactDataGrid__row--scrolling):not(.InovuaReactDataGrid__row--empty) .InovuaReactDataGrid__row-hover-target:hover {
+    background-color: transparent;
+}
+.wishList-container .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__header {
+   height: 50px !important;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+}
+/* .wishList-container .InovuaReactDataGrid__row:not(.InovuaReactDataGrid__row--virtualize-columns)>.InovuaReactDataGrid__row-cell-wrap,
+.wishList-container .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__row--even,
+.wishList-container .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__row--odd {
+    height: 60px !important;
+    border-bottom: 1px solid #e9e9e9;
+} */
+/* .wishList-container .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__cell--show-border-bottom {
+    margin-top: 6px;
+    border: none;
+} */
+.shareItems-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.shareItems-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.wishList-container .shareItems-container .faceBook-Icon,
+.shareItems-container .twitter-Icon,
+.shareItems-container .Pinterest-Icon,
+.shareItems-container .mail-Icon,
+.shareItems-container .whatsApp-Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px !important;
+    height: 15px !important;
+    color: white;
+    padding: 5px;
+}
+.shareItems-container .faceBook-Icon {
+    background-color: #39599e;
+}
+.shareItems-container .twitter-Icon {
+    background-color: #45afe2;
+}
+.shareItems-container .Pinterest-Icon {
+    background-color: #ab2e31;
+}
+.shareItems-container .mail-Icon {
+    background-color: #fbb102;
+}
+.shareItems-container .whatsApp-Icon {
+    background-color: #00a901;
+}
+.shareItems-container .faceBook-Icon:hover,
+.shareItems-container .twitter-Icon:hover,
+.shareItems-container .Pinterest-Icon:hover,
+.shareItems-container .mail-Icon:hover,
+.shareItems-container .whatsApp-Icon:hover
+ {
+    background-color: #39599e !important;
+}
+.shareItems-container .shareOn-text {
+    font-weight: 600;
+    color: #333;
+    font-size: 20px;
+}
+

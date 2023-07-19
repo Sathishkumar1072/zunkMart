@@ -1,0 +1,62 @@
+.latestProducts-container {
+  /* border: 1px solid green; */
+  height: 500px;
+}
+.carousel-child .section-heading {
+    text-align: initial;
+    border-bottom:2px solid #000;
+    width: fit-content;
+    font-weight: 600;
+    font-style: normal;
+    color: #333;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.imageDetails-parent .product-ratings-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imageDetails-parent .product-prize-container{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.imageDetails-parent .product-offered {
+  color: #000;
+  font-weight: 600;
+}
+.imageDetails-parent .product-original {
+  color: #7b7b7b;
+}
+.imageDetails-parent .product-name {
+  color:black ;
+  font-weight: 500;
+}
+.product-ratings .css-i4bv87-MuiSvgIcon-root {
+  color: #ff9f00;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.carouselItems-Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;  
+  align-items: center;
+}
+.selectOptions {
+  border: none;
+    font-size: 15px;
+    height: 35px;
+    color: #434040;
+}
+.SampleTip {
+  font-size: 25px;
+}
+.MuiTooltip-popper[data-popper-placement*="top"] .css-j9tsx6-MuiTooltip-tooltip {
+  margin-bottom: 5px !important;
+}
+/* .css-j9tsx6-MuiTooltip-tooltip {
+  margin-bottom: 8px !important;
+} */
