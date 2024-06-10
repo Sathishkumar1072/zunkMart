@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/zunkMart/static/css/main.a5b404e9.chunk.css",
-    "main.js": "/zunkMart/static/js/main.c9b2b339.chunk.js",
-    "main.js.map": "/zunkMart/static/js/main.c9b2b339.chunk.js.map",
+    "main.js": "/zunkMart/static/js/main.f4fee9e5.chunk.js",
+    "main.js.map": "/zunkMart/static/js/main.f4fee9e5.chunk.js.map",
     "runtime-main.js": "/zunkMart/static/js/runtime-main.1f827169.js",
     "runtime-main.js.map": "/zunkMart/static/js/runtime-main.1f827169.js.map",
     "static/css/2.635f3160.chunk.css": "/zunkMart/static/css/2.635f3160.chunk.css",
     "static/js/2.a83aecb0.chunk.js": "/zunkMart/static/js/2.a83aecb0.chunk.js",
     "static/js/2.a83aecb0.chunk.js.map": "/zunkMart/static/js/2.a83aecb0.chunk.js.map",
     "static/css/3.a489eedf.chunk.css": "/zunkMart/static/css/3.a489eedf.chunk.css",
-    "static/js/3.24c084f0.chunk.js": "/zunkMart/static/js/3.24c084f0.chunk.js",
-    "static/js/3.24c084f0.chunk.js.map": "/zunkMart/static/js/3.24c084f0.chunk.js.map",
+    "static/js/3.48a9c946.chunk.js": "/zunkMart/static/js/3.48a9c946.chunk.js",
+    "static/js/3.48a9c946.chunk.js.map": "/zunkMart/static/js/3.48a9c946.chunk.js.map",
     "static/css/4.62c7dba1.chunk.css": "/zunkMart/static/css/4.62c7dba1.chunk.css",
     "static/js/4.3943ee36.chunk.js": "/zunkMart/static/js/4.3943ee36.chunk.js",
     "static/js/4.3943ee36.chunk.js.map": "/zunkMart/static/js/4.3943ee36.chunk.js.map",
@@ -37,7 +37,7 @@
     "static/css/7.f3bb14a1.chunk.css.map": "/zunkMart/static/css/7.f3bb14a1.chunk.css.map",
     "static/css/8.bf4308a4.chunk.css.map": "/zunkMart/static/css/8.bf4308a4.chunk.css.map",
     "static/css/main.a5b404e9.chunk.css.map": "/zunkMart/static/css/main.a5b404e9.chunk.css.map",
-    "static/js/3.24c084f0.chunk.js.LICENSE.txt": "/zunkMart/static/js/3.24c084f0.chunk.js.LICENSE.txt",
+    "static/js/3.48a9c946.chunk.js.LICENSE.txt": "/zunkMart/static/js/3.48a9c946.chunk.js.LICENSE.txt",
     "static/media/Mobile.4942da1e.png": "/zunkMart/static/media/Mobile.4942da1e.png",
     "static/media/Women_Blue_1.c44ffbf9.png": "/zunkMart/static/media/Women_Blue_1.c44ffbf9.png",
     "static/media/Women_Red_1.b64e427c.png": "/zunkMart/static/media/Women_Red_1.b64e427c.png",
@@ -62,8 +62,8 @@
   "entrypoints": [
     "static/js/runtime-main.1f827169.js",
     "static/css/3.a489eedf.chunk.css",
-    "static/js/3.24c084f0.chunk.js",
+    "static/js/3.48a9c946.chunk.js",
     "static/css/main.a5b404e9.chunk.css",
-    "static/js/main.c9b2b339.chunk.js"
+    "static/js/main.f4fee9e5.chunk.js"
   ]
 }
