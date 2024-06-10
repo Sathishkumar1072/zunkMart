@@ -1,5 +1,5 @@
 import React, { lazy } from 'react'
-import { HashRouter as Router,Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Spinner from '../baseComponent/spinner/Spinner'
 
 const Home = lazy(() => import('../../components/gallery/Gallery'))
@@ -13,14 +13,14 @@ const Product = lazy(() => import('../../pages/product/Product'))
 function RoutesFile() {
   return (
     <React.Suspense fallback={<Spinner/>}>
-      <Router>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/account" element={<MyAccount />} />
         <Route path="/refund" element={<RefundReturn />} />
         <Route path="/wishlist" element={<WishList />} />
         <Route path="/product" element={<Product />} />
-      </Router>
+      </Routes>
     </React.Suspense>
   )
 }
