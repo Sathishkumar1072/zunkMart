@@ -9,11 +9,11 @@ import Footer from "./pages/footer/Footer";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter basename="/">
         <Header />
         <RoutesFile />
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
